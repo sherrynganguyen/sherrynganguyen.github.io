@@ -1,848 +1,299 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <!--====== Required meta tags ======-->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!--====== Title ======-->
-    <title>Unfold - Personal Portfolio & CV Template</title>
+  <title>Resume - Start Bootstrap Theme</title>
 
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-    <!--====== Line Icons css ======-->
-    <link rel="stylesheet" href="assets/css/LineIcons.css">
-
-    <!--====== Magnific Popup css ======-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="assets/css/default.css">
-
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body id="page-top">
 
-    <!--====== PRELOADER PART START ======-->
-
-    <div class="preloader">
-        <div class="loader_34">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <!--====== PRELOADER ENDS START ======-->
+  <div class="container-fluid p-0">
 
-    <!--====== HEADER PART START ======-->
-
-    <header id="home" class="header-area">
-        <div class="navigation fixed-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.png" alt="Logo">
-                            </a> <!-- Logo -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#service">Services</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#blog">Blog</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                        </nav> <!-- navbar -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- navigation -->
-
-        <div id="parallax" class="header-content d-flex align-items-center">
-            <div class="header-shape shape-one layer" data-depth="0.10">
-                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-tow layer" data-depth="0.30">
-                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-three layer" data-depth="0.40">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-fore layer" data-depth="0.60">
-                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-five layer" data-depth="0.20">
-                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-six layer" data-depth="0.15">
-                <img src="assets/images/banner/shape/shape-4.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-seven layer" data-depth="0.50">
-                <img src="assets/images/banner/shape/shape-5.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-eight layer" data-depth="0.40">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-nine layer" data-depth="0.20">
-                <img src="assets/images/banner/shape/shape-6.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="header-shape shape-ten layer" data-depth="0.30">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="header-content-right">
-                            <h4 class="sub-title">Hello, I’m</h4>
-                            <h1 class="title">Sherry Nguyen</h1>
-                            <p>A Full-Stack Web Developer</p>
-                            <a class="main-btn" href="#work">View my Work</a>
-                        </div> <!-- header content right -->
-                    </div>
-                    <div class="col-lg-6 offset-xl-1">
-                        <div class="header-image d-none d-lg-block">
-                            <img src="assets/images/banner/hero.png" alt="hero">
-                        </div> <!-- header image -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-            <div class="header-social">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="header-social-icon">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni-behance-original"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> <!-- header social -->
-                        </div>
-                    </div> <!-- row -->
-                </div> <!-- container -->
-            </div> <!-- header social -->
-        </div> <!-- header content -->
-    </header>
-
-    <!--====== HEADER PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
-
-    <section id="about" class="about-area pt-125 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <h2 class="title">About Me</h2>
-                        <p>I'm a Full-stack Web Developer with a background in Accounting & Finance, who
-                             recently graduated from Lighthouse Labs.         With a passion about solving
-                              problems and creating amazing products, I had been thinking about learning coding 
-                              for few years and taking some online coding programs during my spare time. 
-                              In Summer 2019, I decided I would go to school for Web Development Bootcamp. So here I am after three-month
-                             program, I have learned so much about web development.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-content mt-50">
-                        <h5 class="about-title">Hi There! I'm Mark Parker</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <ul class="clearfix">
-                            <li>
-                                <div class="single-info d-flex align-items-center">
-                                    <div class="info-icon">
-                                        <i class="lni-calendar"></i>
-                                    </div>
-                                    <div class="info-text">
-                                        <p><span>Date of birth:</span> 8 June 1995</p>
-                                    </div>
-                                </div> <!-- single info -->
-                            </li>
-                            <li>
-                                <div class="single-info d-flex align-items-center">
-                                    <div class="info-icon">
-                                        <i class="lni-envelope"></i>
-                                    </div>
-                                    <div class="info-text">
-                                        <p><span>Email:</span> parker@mysite.com</p>
-                                    </div>
-                                </div> <!-- single info -->
-                            </li>
-                            <li>
-                                <div class="single-info d-flex align-items-center">
-                                    <div class="info-icon">
-                                        <i class="lni-phone-handset"></i>
-                                    </div>
-                                    <div class="info-text">
-                                        <p><span>Phone:</span> +1-202-555-0138</p>
-                                    </div>
-                                </div> <!-- single info -->
-                            </li>
-                            <li>
-                                <div class="single-info d-flex align-items-center">
-                                    <div class="info-icon">
-                                        <i class="lni-map-marker"></i>
-                                    </div>
-                                    <div class="info-text">
-                                        <p><span>Location:</span> 4373, El Centro, CA</p>
-                                    </div>
-                                </div> <!-- single info -->
-                            </li>
-                        </ul>
-                    </div> <!-- about content -->
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-lg-6">
-                    <div class="about-skills pt-25">
-                        <div class="skill-item mt-25">
-                            <div class="skill-header">
-                                <h6 class="skill-title">HTML</h6>
-                                <div class="skill-percentage">
-                                    <div class="count-box counted">
-                                        <span class="counter">80</span>
-                                    </div>
-                                    %
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="80"></div>
-                                </div>
-                            </div>
-                        </div> <!-- skill item -->
-                        <div class="skill-item mt-25">
-                            <div class="skill-header">
-                                <h6 class="skill-title">CSS</h6>
-                                <div class="skill-percentage">
-                                    <div class="count-box counted">
-                                        <span class="counter">60</span>
-                                    </div>
-                                    %
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="60"></div>
-                                </div>
-                            </div>
-                        </div> <!-- skill item -->
-                        <div class="skill-item mt-25">
-                            <div class="skill-header">
-                                <h6 class="skill-title">Photoshop</h6>
-                                <div class="skill-percentage">
-                                    <div class="count-box counted">
-                                        <span class="counter">50</span>
-                                    </div>
-                                    %
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="50"></div>
-                                </div>
-                            </div>
-                        </div> <!-- skill item -->
-                        <div class="skill-item mt-25">
-                            <div class="skill-header">
-                                <h6 class="skill-title">Sketch</h6>
-                                <div class="skill-percentage">
-                                    <div class="count-box counted">
-                                        <span class="counter">90</span>
-                                    </div>
-                                    %
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="90"></div>
-                                </div>
-                            </div>
-                        </div> <!-- skill item -->
-                    </div> <!-- about skills -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Clarence
+          <span class="text-primary">Taylor</span>
+        </h1>
+        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+          <a href="mailto:name@email.com">name@email.com</a>
+        </div>
+        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <!--====== ABOUT PART ENDS ======-->
+    <hr class="m-0">
 
-    <!--====== SERVICES PART START ======-->
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
 
-    <section id="service" class="services-area gray-bg pt-125 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-30">
-                        <h2 class="title">My Services</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-code-alt"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#">Web Design</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-color-pallet"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-mobile"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#">App Design</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-vector"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#">Illustration Design</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-website"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#">Web Development</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-service text-center mt-30">
-                        <div class="service-icon">
-                            <i class="lni-support"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title"><a href="#">Consultancy and Support</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-                        </div>
-                    </div> <!-- single service -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Senior Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2013 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2011 - March 2013</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Junior Web Designer</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2010 - December 2011</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
-    <!--====== SERVICES PART ENDS ======-->
+    <hr class="m-0">
 
-    <!--====== CALL TO ACTION PART START ======-->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
 
-    <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 col-lg-9">
-                    <div class="call-action-content text-center">
-                        <h2 class="action-title">Have any project on mind?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua nostrud.</p>
-                        <ul>
-                            <li><a class="main-btn custom" href="#">download cv</a></li>
-                            <li><a class="main-btn custom-2" href="#">hire me</a></li>
-                        </ul>
-                    </div> <!-- call action content -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Colorado Boulder</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science - Web Development Track</div>
+            <p>GPA: 3.23</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2006 - May 2010</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">James Buchanan High School</h3>
+            <div class="subheading mb-3">Technology Magnet Program</div>
+            <p>GPA: 3.56</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2002 - May 2006</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <!--====== CALL TO ACTION PART ENDS ======-->
+    <hr class="m-0">
 
-    <!--====== WORK PART START ======-->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
 
-    <section id="work" class="work-area pt-125 pb-130">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-title pb-25">
-                        <h2 class="title">My Recent Works</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-1.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-1.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-2.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-2.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-3.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-4.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-4.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-5.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-5.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/work/w-6.jpg" alt="work">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Product Design</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/work/w-6.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#"><i class="lni-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="work-more text-center mt-50">
-                        <a class="main-btn" href="#">more works</a>
-                    </div> <!-- work more -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
     </section>
 
-    <!--====== WORK PART ENDS ======-->
+    <hr class="m-0">
 
-    <!--====== PRICING PART START ======-->
-
-    <section id="pricing" class="pricing-area gray-bg pt-125 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-25">
-                        <h2 class="title">My Pricing Plans</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Basic</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$19.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing active text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Standard</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$39.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Premium</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$29.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+      </div>
     </section>
 
-    <!--====== PRICING PART ENDS ======-->
+    <hr class="m-0">
 
-    <!--====== BLOG PART START ======-->
-
-    <section id="blog" class="blog-area pt-125 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-25">
-                        <h2 class="title">From The Blog</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-blog mt-30">
-                        <div class="blog-image">
-                            <img src="assets/images/blog/b-1.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-content">
-                            <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>
-                            <span>July 26, 2022</span>
-                        </div>
-                    </div> <!-- single blog -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-blog mt-30">
-                        <div class="blog-image">
-                            <img src="assets/images/blog/b-2.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-content">
-                            <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>
-                            <span>July 26, 2022</span>
-                        </div>
-                    </div> <!-- single blog -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-blog mt-30">
-                        <div class="blog-image">
-                            <img src="assets/images/blog/b-3.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-content">
-                            <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>
-                            <span>July 26, 2022</span>
-                        </div>
-                    </div> <!-- single blog -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="blog-more text-center mt-50">
-                        <a class="main-btn" href="#">More posts</a>
-                    </div> <!-- blog more -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Google Analytics Certified Developer</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Mobile Web Specialist - Google Certification</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2<sup>nd</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - James Buchanan High School - Hackathon 2006</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            3<sup>rd</sup>
+            Place - James Buchanan High School - Hackathon 2005</li>
+        </ul>
+      </div>
     </section>
 
-    <!--====== BLOG PART ENDS ======-->
+  </div>
 
-    <!--====== CONTACT PART START ======-->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-25">
-                        <h2 class="title">Get In Touch</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-7">
-                    <div class="contact-box text-center mt-30">
-                        <div class="contact-icon">
-                            <i class="lni-map-marker"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h6 class="contact-title">Address</h6>
-                            <p>123 Stree New York City , United States Of America 750</p>
-                        </div>
-                    </div> <!-- contact box -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-7">
-                    <div class="contact-box text-center mt-30">
-                        <div class="contact-icon">
-                            <i class="lni-phone"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h6 class="contact-title">Phone</h6>
-                            <p>+931 2222 5555</p>
-                            <p>+547 5554 6663</p>
-                        </div>
-                    </div> <!-- contact box -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-7">
-                    <div class="contact-box text-center mt-30">
-                        <div class="contact-icon">
-                            <i class="lni-envelope"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h6 class="contact-title">Email</h6>
-                            <p>support@yourmail.com</p>
-                            <p>info@helpline.com</p>
-                        </div>
-                    </div> <!-- contact box -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-form pt-30">
-                        <form id="contact-form" action="assets/contact.php">
-                            <div class="single-form">
-                                <input type="text" name="name" placeholder="Name">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                                <input type="email" name="email" placeholder="Email">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                                <textarea name="message" placeholder="Message"></textarea>
-                            </div> <!-- single form -->
-                            <p class="form-message"></p>
-                            <div class="single-form">
-                                <button class="main-btn" type="submit">Send Message</button>
-                            </div> <!-- single form -->
-                        </form>
-                    </div> <!-- contact form -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="contact-map mt-60">
-                        <div class="gmap_canvas">                            
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        </div>
-                    </div> <!-- contact map -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!--====== CONTACT PART ENDS ======-->
-
-    <!--====== FOOTER PART START ======-->
-
-    <footer id="footer" class="footer-area">
-        <div class="footer-widget pt-130 pb-130">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="footer-content text-center">
-                            <a href="index.html">
-                                <img src="assets/images/logo-2.png" alt="Logo">
-                            </a>
-                            <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <ul>
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                            </ul>
-                        </div> <!-- footer content -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- footer widget -->
-        <div class="footer-copyright pb-20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
-                        </div> <!-- copyright text -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- footer widget -->
-    </footer>
-
-    <!--====== FOOTER PART ENDS ======-->
-
-    <!--====== BACK TOP TOP PART START ======-->
-
-    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
-
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-
-
-
-
-
-
-    <!--====== jquery js ======-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-
-    <!--====== Magnific Popup js ======-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-    <!--====== Parallax js ======-->
-    <script src="assets/js/parallax.min.js"></script>
-
-    <!--====== Counter Up js ======-->
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-
-
-    <!--====== Appear js ======-->
-    <script src="assets/js/jquery.appear.min.js"></script>
-
-    <!--====== Scrolling js ======-->
-    <script src="assets/js/scrolling-nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-
-
-    <!--====== Main js ======-->
-    <script src="assets/js/main.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
 
