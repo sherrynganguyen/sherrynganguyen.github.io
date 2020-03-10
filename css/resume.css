@@ -171,6 +171,13 @@ a {
   color: #BD5D38;
 }
 
+a.lb-0 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  text-decoration: none;
+
+}
+
 a:hover, a:focus, a:active {
   color: #824027;
 }
