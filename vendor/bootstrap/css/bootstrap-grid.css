@@ -1922,12 +1922,14 @@ html {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
-  /* a .mb-0 { */
-    font-size: 25px !important;
-    font-weight: bold !important;
-    text-decoration: none;
-  
-  /* } */
+
+}
+
+.lb-0 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  text-decoration: none;
+
 }
 
 .ml-0,
