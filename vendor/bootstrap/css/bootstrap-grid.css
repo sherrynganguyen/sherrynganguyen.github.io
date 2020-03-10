@@ -1924,6 +1924,12 @@ html {
   margin-bottom: 0 !important;
 }
 
+a .mb-0 {
+  font-size: large;
+  text-decoration: none;
+
+}
+
 .ml-0,
 .mx-0 {
   margin-left: 0 !important;
